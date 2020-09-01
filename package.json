@@ -1,13 +1,13 @@
 {
-  "name": "netlify-plugin-gatsby-cache",
-  "version": "0.3.2",
-  "description": "Persist the Gatsby cache between Netlify builds for huge build speed improvements!",
+  "name": "netlify-plugin-nuxt-cache",
+  "version": "0.0.1",
+  "description": "Persist the Nuxt cache between Netlify builds for huge build speed improvements!",
   "main": "index.js",
-  "repository": "https://github.com/jlengstorf/netlify-plugin-gatsby-cache.git",
+  "repository": "https://github.com/owlnai/netlify-plugin-nuxt-cache.git",
   "bugs": {
-    "url": "https://github.com/jlengstorf/netlify-plugin-gatsby-cache/issues"
+    "url": "https://github.com/owlnai/netlify-plugin-nuxt-cache/issues"
   },
-  "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
+  "author": "Unai Mengual",
   "license": "MIT",
   "keywords": [
     "netlify",
