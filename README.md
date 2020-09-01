@@ -2,11 +2,11 @@
 
 Persist the Nuxt cache between Netlify builds for huge build speed improvements! ⚡️
 
-### [One-click install to add this to your Nuxt site](http://app.netlify.com/plugins/netlify-plugin-nuxt-cache/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex)
+### [One-click install to add this to your Nuxt site](http://app.netlify.com/plugins/netlify-plugin-cache-nuxt/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex)
 
 ## Usage
 
-If you don’t want to use the [UI-based installation](http://app.netlify.com/plugins/netlify-plugin-nuxt-cache/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex), you can install manually using `netlify.toml`.
+If you don’t want to use the [UI-based installation](http://app.netlify.com/plugins/netlify-plugin-cache-nuxt/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex), you can install manually using `netlify.toml`.
 
 Add the following lines to your `netlify.toml` file:
 
@@ -15,7 +15,7 @@ Add the following lines to your `netlify.toml` file:
   publish = "public"
 
 [[plugins]]
-  package = "netlify-plugin-nuxt-cache"
+  package = "netlify-plugin-cache-nuxt"
 ```
 
 Note: The `[[plugins]]` line is required for each plugin, even if you have other plugins in your `netlify.toml` file already.
@@ -35,4 +35,4 @@ tl;dr: Repeat builds with lots of images will be _much_ faster. With few or no i
 
 ## Want to learn how to create your own Netlify Build Plugins?
 
-Check out [Sarah Drasner’s excellent tutorial](https://www.netlify.com/blog/2019/10/16/creating-and-using-your-first-netlify-build-plugin/?utm_source=github&utm_medium=netlify-plugin-nuxt-cache-jl&utm_campaign=devex)!
+Check out [Sarah Drasner’s excellent tutorial](https://www.netlify.com/blog/2019/10/16/creating-and-using-your-first-netlify-build-plugin/?utm_source=github&utm_medium=netlify-plugin-cache-nuxt-jl&utm_campaign=devex)!

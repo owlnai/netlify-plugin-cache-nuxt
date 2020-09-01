@@ -1,11 +1,11 @@
 {
-  "name": "netlify-plugin-nuxt-cache",
+  "name": "netlify-plugin-cache-nuxt",
   "version": "0.0.1",
   "description": "Persist the Nuxt cache between Netlify builds for huge build speed improvements!",
   "main": "index.js",
-  "repository": "https://github.com/owlnai/netlify-plugin-nuxt-cache.git",
+  "repository": "https://github.com/owlnai/netlify-plugin-cache-nuxt.git",
   "bugs": {
-    "url": "https://github.com/owlnai/netlify-plugin-nuxt-cache/issues"
+    "url": "https://github.com/owlnai/netlify-plugin-cache-nuxt/issues"
   },
   "author": "Unai Mengual",
   "license": "MIT",
