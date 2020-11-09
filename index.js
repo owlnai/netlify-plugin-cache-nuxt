@@ -2,7 +2,7 @@ const path = require('path');
 
 const getCacheDirs = (constants) => [
   constants.PUBLISH_DIR,
-  path.normalize(`${constants.PUBLISH_DIR}/../.nuxt`),
+  path.normalize(`${constants.PUBLISH_DIR}/../node-modules/.cache/nuxt`),
 ];
 
 module.exports = {
