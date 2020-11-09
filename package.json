@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-cache-nuxt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Persist the Nuxt cache between Netlify builds for huge build speed improvements!",
   "main": "index.js",
   "repository": "https://github.com/owlnai/netlify-plugin-cache-nuxt.git",
