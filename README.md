@@ -1,4 +1,4 @@
-![Plugin banner](https://repository-images.githubusercontent.com/290913731/5d1c7a00-22e3-11eb-8593-5a390494b9ce)
+![Plugin banner](https://repository-images.githubusercontent.com/290913731/f64c9000-22e5-11eb-823a-85da58853d63)
 # Netlify Build Plugin: Persist the Nuxt Cache Between Builds
 Persist the Nuxt cache between Netlify builds for huge build speed improvements! ⚡️
 [**One-click install to add this to your Nuxt site**](http://app.netlify.com/plugins/netlify-plugin-cache-nuxt/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex)</div>
