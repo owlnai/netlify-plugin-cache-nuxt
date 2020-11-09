@@ -1,8 +1,7 @@
+![Plugin banner](https://repository-images.githubusercontent.com/290913731/5d1c7a00-22e3-11eb-8593-5a390494b9ce)
 # Netlify Build Plugin: Persist the Nuxt Cache Between Builds
-
 Persist the Nuxt cache between Netlify builds for huge build speed improvements! ⚡️
-
-### [One-click install to add this to your Nuxt site](http://app.netlify.com/plugins/netlify-plugin-cache-nuxt/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex)
+[**One-click install to add this to your Nuxt site**](http://app.netlify.com/plugins/netlify-plugin-cache-nuxt/install?utm_source=github&utm_medium=nuxt-cache-bp-jl&utm_campaign=devex)</div>
 
 ## Usage
 
@@ -26,6 +25,7 @@ This plugin determines the location of your `.cache` folder by looking at the `p
 
 Each Nuxt site is different, so build times vary widely between them, but one common slowdown in Nuxt builds is processing and transforming images. Nuxt is smart enough to check if these transformations have already been done and skip them, but in order to get that benefit in a build pipeline (e.g. Netlify) the `public` and `.cache` directories need to be preserved between builds. That’s what this plugin does!
 
+### Note: To be determined, don't look at the stats, don't
 |                                                            | No Cache                                                                                                | Cache                                                                                                   | Savings |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------|
 | * 231 GraphQL queries<br>* 1,871 images<br>* 224 pages     | 293207ms ([build log](https://app.netlify.com/sites/lengstorf/deploys/5dceed27d58a580008daaccc))        | 72835ms ([build log](https://app.netlify.com/sites/lengstorf/deploys/5dcef2463da4810008d48aaa))         | 75%     |
